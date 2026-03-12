@@ -16,7 +16,7 @@
 
 body {
     background-color: var(--bg-color);
-    background: linear-gradient(rgba(0,0,0,0.45), rgba(0, 0, 0, 0.45)), url("圖片素材/02橫式海報.webp") center/cover fixed no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.45), rgba(0, 0, 0, 0.45)), url("Image/02橫式海報.webp") center/cover fixed no-repeat;
     color: var(--text-color);
     font-family: var(--font-main);
     line-height: 1.6;
@@ -99,7 +99,7 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("圖片素材/01橫式海報.webp") center/cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("Image/01橫式海報.webp") center/cover no-repeat;
     z-index: -1;
 }
 
@@ -168,23 +168,23 @@ html {
 
 /* section-heading 圖片置換 */
 .img-1 {
-    background: url("圖片素材/蛹.png") center/cover no-repeat;
+    background: url("Image/蛹.png") center/cover no-repeat;
 }
 
 .img-2 {
-    background: url("圖片素材/眼球燈-實照.png") center/cover no-repeat;
+    background: url("Image/眼球燈-實照.png") center/cover no-repeat;
 }
 
 .img-3 {
-    background: url("圖片素材/玻璃燈-實照.jpg") center/cover no-repeat;
+    background: url("Image/玻璃燈-實照.jpg") center/cover no-repeat;
 }
 
 .img-4 {
-    background: url("圖片素材/投影-實照.jpg") center/cover no-repeat;
+    background: url("Image/投影-實照.jpg") center/cover no-repeat;
 }
 
 .img-5 {
-    background: url("圖片素材/花-實照.jpg") center/cover no-repeat;
+    background: url("Image/花-實照.jpg") center/cover no-repeat;
 }
 
 /* Themes Section */
@@ -218,19 +218,19 @@ html {
 
 /* 五大主題圖片（由左至右）：蛹、眼球燈、玻璃燈、投影、花 */
 .theme-card:nth-child(1) .theme-img-placeholder {
-    background: url("圖片素材/蛹.png") center/cover no-repeat;
+    background: url("Image/蛹.png") center/cover no-repeat;
 }
 .theme-card:nth-child(2) .theme-img-placeholder {
-    background: url("圖片素材/眼球燈.png") center/cover no-repeat;
+    background: url("Image/眼球燈.png") center/cover no-repeat;
 }
 .theme-card:nth-child(3) .theme-img-placeholder {
-    background: url("圖片素材/玻璃燈.png") center/cover no-repeat;
+    background: url("Image/玻璃燈.png") center/cover no-repeat;
 }
 .theme-card:nth-child(4) .theme-img-placeholder {
-    background: url("圖片素材/投影.png") center/cover no-repeat;
+    background: url("Image/投影.png") center/cover no-repeat;
 }
 .theme-card:nth-child(5) .theme-img-placeholder {
-    background: url("圖片素材/花.png") center/cover no-repeat;
+    background: url("Image/花.png") center/cover no-repeat;
 }
 
 /* 各主題色塊 */
@@ -299,11 +299,11 @@ html {
 }
 
 /* 詳細圖片定義 */
-.color-detail-1 { background: url("圖片素材/蛹-最終.jpg") center/cover no-repeat; } /* 蛹 */
-.color-detail-2 { background: url("圖片素材/眼球燈-最終.jpg") center/cover no-repeat; } /* 眼球燈-實照 */
-.color-detail-3 { background: url("圖片素材/玻璃燈-最終.jpg") center/cover no-repeat; } /* 玻璃燈-實照 */
-.color-detail-4 { background: url("圖片素材/投影-實照.jpg") center/cover no-repeat; } /* 花-實照 */
-.color-detail-5 { background: url("圖片素材/花-最終.jpg") center/cover no-repeat; } /* 投影-實照 */
+.color-detail-1 { background: url("Image/蛹-最終.jpg") center/cover no-repeat; } /* 蛹 */
+.color-detail-2 { background: url("Image/眼球燈-最終.jpg") center/cover no-repeat; } /* 眼球燈-實照 */
+.color-detail-3 { background: url("Image/玻璃燈-最終.jpg") center/cover no-repeat; } /* 玻璃燈-實照 */
+.color-detail-4 { background: url("Image/投影-實照.jpg") center/cover no-repeat; } /* 花-實照 */
+.color-detail-5 { background: url("Image/花-最終.jpg") center/cover no-repeat; } /* 投影-實照 */
 
 
 /* Footer */
@@ -332,3 +332,4 @@ html {
         grid-template-columns: 1fr 1fr;
     }
 }
+

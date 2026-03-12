@@ -16,7 +16,7 @@
 
 body {
     background-color: var(--bg-color);
-    background: linear-gradient(rgba(0,0,0,0.45), rgba(0, 0, 0, 0.45)), url("Image/02橫式海報.webp") center/cover fixed no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.45), rgba(0, 0, 0, 0.45)), url("Image/02poster.webp") center/cover fixed no-repeat;
     color: var(--text-color);
     font-family: var(--font-main);
     line-height: 1.6;
@@ -99,7 +99,7 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("Image/01橫式海報.webp") center/cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("Image/01poster.webp") center/cover no-repeat;
     z-index: -1;
 }
 

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>光脈 - 沉浸式互動展覽</title>
+    <link rel="stylesheet" href="網頁.css">
+    <style>
+        /* 調整 detail-section 文字區寬度：圖片 1fr、文字 2fr */
+        .detail-section .detail-grid {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 2rem;
+            align-items: start;
+        }
+        .detail-section .detail-item {
+            margin: 0;
+        }
+        @media (max-width: 768px) {
+            .detail-section .detail-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">光脈</div>
+                <ul class="nav-links">
+                    <li><a href="#about">關於展覽</a></li>
+                    <li><a href="#themes">五大單元</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-bg-placeholder"></div>
+            <div class="hero-content">
+                <h2 class="sub-title">回到你與世界最初同步之地</h2>
+                <h1 class="main-title">光脈</h1>
+                <p class="hero-desc">在此資訊所創的時代，感知、自然環境及觀點的轉化。</p>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-grid">
+                    <div class="text-content">
+                        <h3 class="section-heading">我們是《光脈》</h3>
+                        <p>作為一項以自然為本的沉浸式互動展覽。透過機械裝置與五大主題單元的整合設計，展覽以「從城市走向自然」為敘事軸線，營造觀眾在體驗過程中體會理性機械與感性自然的相互交織，呈現科技與生態之間的動態平衡。</p>
+                        <p>此展覽旨在透過光的表現與空間設計，創造一個能使觀者放慢步調的沉浸式場域。引導觀者親身投入一場「世界甦醒」的詩意旅程，重新感受人與自然之間的連結。</p>
+                    </div>
+                    <video class="image-placeholder main-about-img" controls>
+                        <source src="圖片素材/光脈形象片 .mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <section id="themes" class="themes-section">
+            <div class="container">
+                <h3 class="center-heading">五大主題單元</h3>
+                <div class="theme-grid">
+                    <div class="theme-card">
+                        <div class="theme-img-placeholder color-1"></div>
+                        <h4>生命</h4>
+                        <p>以外型製作立體造形，內部設防。</p>
+                    </div>
+                    <div class="theme-card">
+                        <div class="theme-img-placeholder color-2"></div>
+                        <h4>時間</h4>
+                        <p>使用投影式，外部使用特殊材料。</p>
+                    </div>
+                    <div class="theme-card">
+                        <div class="theme-img-placeholder color-3"></div>
+                        <h4>波動</h4>
+                        <p>一段粒子下，由投射出來。</p>
+                    </div>
+                    <div class="theme-card">
+                        <div class="theme-img-placeholder color-4"></div>
+                        <h4>森林</h4>
+                        <p>使用多射式裝置配合手工花瓣製作。</p>
+                    </div>
+                    <div class="theme-card">
+                        <div class="theme-img-placeholder color-5"></div>
+                        <h4>光脈</h4>
+                        <p>光的表現與空間設計。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="detail-section">
+            <div class="container">
+                <div class="detail-grid">
+                    <!-- 第一組：圖片左文字右 -->
+                    <div class="detail-item detail-img-item">
+                        <div class="detail-img-wrapper">
+                            <div class="detail-img color-detail-1"></div>
+                        </div>
+                    </div>
+                    <div class="detail-item detail-text">
+                        <p>一顆顆靜謐發光的蛹燈，像是尚未甦醒的夢。它們象徵著生命尚在蛻變、尚未展翅的階段——充滿未知與可能。觀者靠近時，光微微顫動，彷彿回應著每個靠近的靈魂，那些渴望蛻變的念頭與能量在此悄悄聚集。生命從不喧嘩誕生，它總是在寂靜中慢慢覺醒。</p>
+                    </div>
+
+                    <!-- 第二組：圖片左文字右 -->
+                    <div class="detail-item detail-img-item">
+                        <div class="detail-img-wrapper">
+                            <div class="detail-img color-detail-2"></div>
+                        </div>
+                    </div>
+                    <div class="detail-item detail-text">
+                        <p>它是城市留下的記號，是時代曾經行經的光痕。街燈不只是光源，而是一種時間的象徵——它照亮我們走過的路，也映照出我們的孤獨與堅持。當它靜靜矗立在展場中，彷彿在訴說城市的節奏、生活的步伐，與我們從未停下的腳步。街燈不會催促你，但它總在你前方等待你——如同時間。</p>
+                    </div>
+
+                    <!-- 第三組：圖片左文字右 -->
+                    <div class="detail-item detail-img-item">
+                        <div class="detail-img-wrapper">
+                            <div class="detail-img color-detail-3"></div>
+                        </div>
+                    </div>
+                    <div class="detail-item detail-text">
+                        <p>在黑暗中，光是一種語言，也是最初的召喚。手棒的閃耀象徵了感知的甦醒，像是心跳的頻率、靈魂的脈動，在無聲中開始振動世界。它不只是光源，更是與世界互動的觸媒，引導觀者進入一場由內而外的震盪旅程。光由人啟動，波動由心傳遞——我們皆是感知的起點。</p>
+                    </div>
+
+                    <!-- 第四組：圖片左文字右 -->
+                    <div class="detail-item detail-img-item">
+                        <div class="detail-img-wrapper">
+                            <div class="detail-img color-detail-4"></div>
+                        </div>
+                    </div>
+                    <div class="detail-item detail-text">
+                        <p>在科技構築的影像森林中，我們試圖觸碰記憶中最原始的綠意。這不是現實中的林木，而是一種對自然的渴望與追尋，是城市靈魂投射出的幻境。觀者在投影之中遊走，如同在意識的林地徘徊，試圖尋回那條回家的路。這裡的森林，不長在土地上，而是種在我們失落的心裡。</p>
+                    </div>
+
+                    <!-- 第五組：圖片左文字右 -->
+                    <div class="detail-item detail-img-item">
+                        <div class="detail-img-wrapper">
+                            <div class="detail-img color-detail-5"></div>
+                        </div>
+                    </div>
+                    <div class="detail-item detail-text">
+                        <p>「光脈」可被理解為自然中光線如同血脈般在空間中流動，而「山海」則象徵大地與水域間的起伏與循環。山是穩定的載體，海是流動的變化，光則穿梭其間，成為連結天地的媒介。當陽光穿透雲層照耀山巒、反射在海面時，形成了大自然中最具詩意的光影變化正如山海中潛藏的能量：白日潛伏，夜晚綻放，隱喻自然蘊藏的力量與神祕性。
+</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 光脈 沉浸式互動展覽. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
